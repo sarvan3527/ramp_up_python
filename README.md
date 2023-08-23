@@ -4,7 +4,7 @@ rampup python code
 **rampup python code 
 (3 TASKs)**
 
-#   Task 1    ============
+#   3 TASKS
 # String Analysis Program
 
 This is a Python program that performs analysis on a given string statement.
