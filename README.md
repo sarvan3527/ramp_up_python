@@ -1,5 +1,7 @@
 # ramp_up_python
-rampup python code
+rampup python code 
+(3 TASKs)
+
 # String Analysis Program
 
 This is a Python program that performs analysis on a given string statement.
