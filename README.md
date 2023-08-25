@@ -111,6 +111,97 @@ The regular expression used for IP address validation in this program using regu
 8. To view the results of IP address validations and ping tests stored in the "ip_address.txt" file, run the program and choose "No" when prompted.
 
 
+#         4th Task      ==================
+
+# Employee Details Generator with Threading
+
+This Python program demonstrates the use of generators and threading to generate employee details concurrently. It generates random employee details including employee ID, location, and salary.
+
+## Requirements
+
+- Python 3.x
+
+## Usage
+
+1. Open a terminal or command prompt.
+2. Navigate to the directory where the Python script is located.
+3. Run the script using the following command:
+
+4. Enter the desired number of employee details to generate.
+
+5. The program will generate and display employee details concurrently using threading.
+
+## Functionality
+
+1. The `generate_employee_details` function generates employee details using a generator.
+2. The generator yields employee ID, location, and salary for the specified number of employees.
+3. Random values are chosen for each employee detail using the `random` module.
+4. Threading is used to concurrently generate and display employee details.
+
+#      5th Task      ============
+
+5th Task
+
+# Multiple Producers and Consumers using Threads
+
+This Python program demonstrates the usage of multiple producers and consumers using threads. The program allows you to specify the number of producers and consumers, and it simulates their interactions through thread execution.
+
+## Requirements
+
+- Python 3.x
+
+## How to Run
+
+1. Open a terminal or command prompt.
+2. Navigate to the directory where the Python script is located.
+3. Run the script using the following command:
+
+4. Follow the on-screen prompts to enter the number of producers and consumers.
+
+## Example
+
+1. Enter the number of producers you want to perform.
+2. Enter the number of consumers you want to perform.
+
+The program will then simulate producers and consumers interactions using threads and display the output accordingly.
+
+# 6th Task      ===================
+
+6th Task
+
+
+# Shape Area Calculator
+
+This Python program demonstrates object-oriented programming concepts using inheritance and function overriding. It calculates the areas of different geometric shapes: square, triangle, and circle.
+
+## Requirements
+
+- Python 3.x
+
+## Usage
+
+1. Open a terminal or command prompt.
+2. Navigate to the directory where the Python script is located.
+3. Run the script using the following command:
+
+4. The program will calculate and display the area of a square, a triangle, and a circle based on the provided dimensions.
+
+## Shapes and Their Areas
+
+### Square
+
+- To calculate the area of a square, provide the side length.
+- Formula: area = side_length^2
+
+### Triangle
+
+- To calculate the area of a triangle, provide the base and height.
+- Formula: area = 0.5 * base * height
+
+### Circle
+
+- To calculate the area of a circle, provide the radius.
+- Formula: area = pi * radius^2
 
 
 
