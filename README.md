@@ -204,4 +204,174 @@ This Python program demonstrates object-oriented programming concepts using inhe
 - Formula: area = pi * radius^2
 
 
+==================================================================================
+
+30/08/2023 completed 
+
+
+#		7th Task ATM		###########
+
+
+ATM Withdrawal Note Calculator
+The ATM Withdrawal Note Calculator is a Python program that calculates the number of currency notes required for a given withdrawal amount using various denominations. It ensures that the withdrawal amount is a multiple of 50, as ATMs typically dispense notes in multiples of 50.
+
+How to Use
+Download or copy the provided code into a Python file (e.g., atm_calculator.py).
+
+Open a terminal or command prompt.
+
+Navigate to the directory where the Python file is located.
+
+Run the program by entering the following command:
+
+Copy code
+python atm_calculator.py
+The program will prompt you to enter the withdrawal amount.
+
+Enter the withdrawal amount. The program will then calculate and display the number of notes for each denomination (500, 200, 100, and 50).
+
+If the provided withdrawal amount is not a multiple of 50, an error message will be displayed, and you will be prompted to enter a new amount.
+
+Repeat steps 5-7 as needed.
+
+You can exit the program by pressing Ctrl+C or closing the terminal.
+
+Code Explanation:
+
+The provided code defines a class ATM that encapsulates the logic for calculating and displaying the number of notes for a given withdrawal amount. The calculate_notes method performs the calculation based on various denominations (500, 200, 100, and 50). The display_notes method displays the calculated note counts.
+
+The program uses a while loop to repeatedly prompt the user for a withdrawal amount until a valid multiple of 50 is provided. Once a valid amount is entered, the ATM class is instantiated, and the methods are called to calculate and display the note counts.
+
+
+
+=======================================================================================================================
+
+8th TASK
+
+
+Attendance Analysis Using Pandas and Numpy
+
+This repository contains Python code that demonstrates how to analyze attendance data from an Excel file using the Pandas and Numpy libraries. The code calculates the counts of employees working from home (WFH) and working from the office (WFO) for the current date and previous days, identifies employees who missed all days, and provides insights into attendance trends.
+
+Requirements
+Before running the code, make sure you have the following installed:
+
+Python 3.x
+Pandas
+Numpy
+You can install these dependencies using the following commands:
+
+bash
+Copy code
+pip install pandas
+pip install numpy
+Usage
+Clone this repository or download the provided code.
+
+Place your Excel attendance data file (attendance.xlsx) in the same directory as the code.
+
+Open the Python script attendance_analysis.py in your preferred code editor.
+
+Run the script using the following command:
+
+bash
+Copy code
+python attendance_analysis.py
+The script will read the attendance data from the Excel file, perform calculations, and print the results in the console.
+Explanation
+The provided code performs the following steps:
+
+Imports the required libraries: Pandas for data manipulation and Numpy for numerical operations.
+
+Reads attendance data from an Excel file using the pd.read_excel function from Pandas.
+
+Cleans up the column names by removing leading and trailing spaces.
+
+Defines a list of date columns representing attendance dates.
+
+Calculates the counts of WFH and WFO employees for the current date using Numpy's np.sum.
+
+Calculates the cumulative WFH and WFO counts for the previous days using Numpy's np.sum and Pandas' .sum().
+
+Identifies employees who missed all days by using the .isnull().all(axis=1) condition.
+
+Prints the results including WFH and WFO counts for the current and previous days, as well as the list of employees who missed all days.
+
+Customization:
+
+You can customize the code according to your needs:
+
+Update the attendance.xlsx file with your own attendance data.
+Modify the dates list to match the date columns in your Excel file.
+Adapt the code to different date formats or data structures as needed.
+
+
+=======================================================================================================================================================
+
+9Th TASK
+
+Treemap Visualization Using Plotly and Pandas
+This repository contains Python code that demonstrates how to create an interactive treemap visualization using the Plotly library for plotting and the Pandas library for data manipulation. The treemap visualization represents hierarchical data as nested rectangles, with the size of each rectangle representing a quantitative value.
+
+Requirements::
+
+Before running the code, make sure you have the following installed:
+
+Python 3.x
+Pandas
+Plotly
+You can install these dependencies using the following commands:
+
+bash
+Copy code
+pip install pandas
+pip install plotly
+Usage
+Clone this repository or download the provided code.
+
+Place your Excel data file containing the necessary columns (label, index, colors) in the specified location.
+
+Open the Python script treemap_visualization.py in your preferred code editor.
+
+Update the data_file_path variable in the script to point to the location of your Excel data file.
+
+Run the script using the following command:
+
+bash
+Copy code
+python treemap_visualization.py
+The script will read the data from the Excel file, create a treemap visualization using Plotly, and display the interactive plot in your default web browser.
+Explanation
+The provided code performs the following steps:
+
+Imports necessary libraries: Pandas for data manipulation and Plotly for visualization.
+
+Reads data from an Excel file using the pd.read_excel function from Pandas.
+
+Defines lists of labels, values, and colors based on the columns in the Excel file.
+
+Creates a treemap figure using go.Figure(go.Treemap(...)) from Plotly's graph objects.
+
+Configures the labels, values, colors, text formatting, and hover information for the treemap trace.
+
+Sets the layout of the figure to have no margins.
+
+Displays the interactive treemap plot using the fig.show() method.
+
+Customization:
+
+You can customize the visualization by modifying the code:
+
+Update the data_file_path variable to point to your Excel data file.
+Modify the columns used for labels, values, and colors based on your data.
+
+
+
+
+
+
+
+
+
+
 
